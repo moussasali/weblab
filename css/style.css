@@ -1,0 +1,12 @@
+body{
+	font-family: Georgia, Times, serif;
+}
+h2{
+	background-color: #eeeeee;
+	color: #666666;
+	text-shadow: 1px 1px 0px #000000;}
+}
+#mytable{
+	border:1;
+	padding:2px;
+}

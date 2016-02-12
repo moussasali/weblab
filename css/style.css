@@ -1,12 +1,68 @@
 body{
-	font-family: Georgia, Times, serif;
+	font-family: arial;
+    background-color: rgb(185,179,165);
+    font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	padding: 10px;
+}
+h1,h2, a{
+	text-align: center;
 }
 h2{
 	background-color: #eeeeee;
 	color: #666666;
 	text-shadow: 1px 1px 0px #000000;}
 }
-#mytable{
-	border:1;
-	padding:2px;
+p{
+	font-family: Arial;
 }
+.container{
+	border: 1px solid #665544;
+	background-color: #efefef;
+	padding: inherit;
+	width: 600px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 1px #01010123;
+	vertical-align: text-top;
+	margin: 10px auto 10px auto;
+}
+#imag{
+	width: 600px;
+	height: 400px;
+	-moz-box-shadow: 5px 5px 5px 5px #777777; 
+	-webkit-box-shadow: 5px 5px 5px 5px #777777; 
+	box-shadow: 5px 5px 5px 5px #777777;
+	border-radius: 5px;
+}
+a:link {
+color: deeppink;
+text-decoration: none;
+}
+a:visited {
+color: black;
+}
+a:hover {
+color: hsl(46,56%,30%);
+text-decoration: underline;
+}
+a:active {
+color: darkcyan;
+}
+
+table {
+width: 600px;}
+th, td {
+padding: 7px 10px 10px 10px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr.even {
+background-color: #efefef;}
+tr:hover {
+background-color: #c3e6e5;}
+.money {
+text-align: right;}

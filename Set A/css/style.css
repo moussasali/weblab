@@ -1,0 +1,110 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block; 
+    height:auto;
+	position: relative; 
+}
+.head{
+	background-color: #000;
+	text-align: center;
+}
+.head p{
+	font-size: 10px;
+	width: 950px;
+	text-align: right;
+	margin: auto;
+	padding: 5px 15px;
+	height: 10px;
+	color: white;
+}
+
+#header ul li a, #header ul li{
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	display: inline;
+	margin: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	color: #101010
+}
+#header ul li a:hover{
+color:#C91BC8;
+}
+.clip{
+	width: 100px;
+	height: 100px;
+	position: absolute; 
+	top: -36px;
+	left: 0px;
+	background-color: rgb(200,40,30);
+}
+.clip p{
+	position: relative;
+	top: 55px;
+	color: #ffffff;
+	padding: 0px 15px;
+	font-size: 19px;
+}
+
+#main 
+{
+	display: block;
+	width:960px;
+}
+#main .main1{
+	float: left;
+	width: 610px;
+	padding: 15px;
+}
+#main .main2{
+	float: left;
+	width: 290px;
+	padding: 15px;
+}
+#main .main3, #main .main4, #main .main5{
+	float: left;
+	width: 290px;
+	padding: 15px;
+}
+#main .main3 span, #main .main4 span, #main .main5 span{
+	background-color: rgb(245,50,50);
+	font-size: 15px;
+	line-height: 25px;
+	padding: 5px;
+}
+
+
+#footer{
+	display: block;
+}
+
+#footer .footer1{
+	float: left;
+	width: 290px;
+	padding: 15px;
+}
+#footer .footer2{
+	float: left;
+	width: 610px;
+	padding: 15px;
+	margin: 10px 0px;
+}
+#footer .footer2 span{
+	background-color: hsl(44,50%,20%);
+	color: #ffffff;
+	padding: 4px;
+}
+
+.line{
+	clear:both;
+	width:916px;
+	height:5px;
+}
